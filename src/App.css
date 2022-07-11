@@ -1,0 +1,91 @@
+*{margin: auto 0;}
+
+.titulo{
+    font-size: '500px';
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Tela1{
+   margin-bottom: '60px';  
+}
+
+.Tela2{
+    margin-bottom: '60px';  
+
+}
+
+.fotologo{
+   
+}
+
+.botaoTela1{
+
+}
+
+.botoes button{
+    margin-bottom: 20px;
+    height: 63px;
+    width: 500px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
+    
+}
+
+.botoes button:hover{
+    background-color: #d68f1c;
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.inputs input{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 500px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.inputs button{
+    margin-bottom: 20px;
+    height: 63px;
+    width: 500px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.inputs  .botaodoKarai button:hover{
+    background-color: #d68f1c;
+    color: white; 
+}
+
+.botaodoKarai:hover{
+    background-color: #d68f1c;
+    color: white; 
+    text-decoration: none;
+}
+
+.botaodoKarai{
+    color: black;
+    text-decoration: none;
+}
+
+
+
