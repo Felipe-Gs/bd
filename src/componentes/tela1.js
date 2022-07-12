@@ -5,7 +5,10 @@ import { Link } from 'react-router-dom';
 
 
 
+
 export default function Tela1(){
+
+   
 
     const [isActive, setIsActive] = useState('blue')
 
@@ -22,9 +25,8 @@ export default function Tela1(){
 
                 <div className='botoes' style={{flexDirection:'column', display:'flex',width:'50vw'}}>
                     <button className='botao1'><Link to='/cliente' className='botaodoKarai'>Cadastro do cliente</Link></button>
-                    <button>Cadastro do Funcionario</button>
-                    <button>Fazer reserva</button>
-                    <button>Consulta dos Hostepedes</button>
+                    <button className='botao1'><Link to='/funcionario' style={{textDecoration:'none', color:'black'}} className='botaodoKaria'>Cadastro do Funcionario</Link></button>
+                    <button className='botao1'><Link to='/reserva'  style={{textDecoration:'none', color:'black'}}   className='botaodoKaria'> Fazer reserva </Link></button>
                     <button>...</button>
                 </div>
             </div>

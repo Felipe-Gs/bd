@@ -69,6 +69,7 @@
     font-weight: bolder;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .inputs  .botaodoKarai button:hover{
@@ -86,6 +87,14 @@
     color: black;
     text-decoration: none;
 }
+
+.botao1{
+    color: black;
+    text-decoration: none;
+}
+
+
+
 
 
 

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import imagem from '../imgs/hotel.png';
+import api from '../service/api';
 
 export default function Tela2(){
 
@@ -12,11 +13,29 @@ export default function Tela2(){
 
     const mensagemCadastrar = () =>{
         if(nome && email && rg && rua && cidade && NRua != null){
+            registrar()
             return alert('Cadastrado!')
         }else{
             alert('Error, preencha todos os campos!')
         }
     }
+    const  registrar = async()=>{
+        try{ const response = await api.post("/cliente", {
+            "nome": nome,
+            "email":email,
+            "rg":rg,
+            "rua":rua,
+            "cidade":cidade,
+            "numrua":NRua,
+        })
+        console.log(response)
+    }
+
+        catch(erro){
+            console.log(erro)
+        }
+       
+     }
 
     return(
         <div style={{backgroundColor:'#1e1e1e', width:'100vw', height:'100vh'}}>
